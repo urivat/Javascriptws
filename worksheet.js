@@ -35,7 +35,7 @@ if (randoms > 0 && randoms <= 2){
 } else if ( randoms >= 9 && randoms <= 10){
     console.log("Hendrix")
 }*/
-/* loops*/
+/* loops
 for (let h = 0; h < 7; h++){
     console.log("JavaScript is cool!")
 }
@@ -47,4 +47,20 @@ for ( let n =0; n < 11; n++){
 
 for (i = 0; i < 6; i++){
     console.log('hello\ngoodbye')
+}*/
+/**functions.favorite movie */
+
+function printMovieName(){
+    let favoriteMovie = 'Matrix';
+    return favoriteMovie
 }
+ let results = printMovieName();
+ console.log(results)
+
+ function pickYourFavoriteBand(){
+     let pick = prompt('whats your favorite band ')
+     return pick 
+ }
+ let result = pickYourFavoriteBand();
+ let userPick= result
+ console.log(userPick)
