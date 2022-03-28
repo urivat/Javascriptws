@@ -48,7 +48,7 @@ for ( let n =0; n < 11; n++){
 for (i = 0; i < 6; i++){
     console.log('hello\ngoodbye')
 }*/
-/**functions.favorite movie */
+/**functions.favorite movie 
 
 function printMovieName(){
     let favoriteMovie = 'Matrix';
@@ -63,4 +63,44 @@ function printMovieName(){
  }
  let result = pickYourFavoriteBand();
  let userPick= result
- console.log(userPick)
+ console.log(userPick)*/
+ /**Favorite Band(return functions) 
+function favoriteBand(userInput){
+    return userInput
+    }
+
+
+let isBestBand = favoriteBand(
+    prompt('please enter a band: ')
+);
+console.log(isBestBand)*/
+/**concert(parameters) 
+function concertDisplay(musicalAct){
+    myStreet = prompt('Whats the name of your street');{
+    console.log(`It would be great if ${musicalAct} played a show on ${myStreet}`);
+    }
+}
+concertDisplay(isBestBand)*/
+/**Desktop Items 
+let desktopItems = ['notebook','waterbottle','modem']
+console.log(desktopItems[1]);
+desktopItems.push('InfinityGauntlet');
+for (let index = 0; index < desktopItems.length; index++) {
+    console.log(desktopItems[index])
+    
+}*/
+let magicNumber = 50;
+let guess = 0;
+let guessedNumber=(prompt('guess which number is the magic number'));
+while (guess != magicNumber){
+    console.log(guessedNumber)
+        guess+= guessedNumber
+        if (guess < magicNumber){
+            console.log('Too low')}
+        else if (guess > magicNumber){
+        }console.log('Too high')
+}    
+    
+    
+    
+
